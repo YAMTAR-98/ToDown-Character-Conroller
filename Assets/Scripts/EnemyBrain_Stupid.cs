@@ -11,6 +11,7 @@ public class EnemyBrain_Stupid : MonoBehaviour
     internal Animator anim; 
     private NavMeshAgent navMeshAgent;
     public GameObject hitPoint;
+    bool isDead;
     bool isStunned;
     private void Awake() {
         
@@ -26,12 +27,15 @@ public class EnemyBrain_Stupid : MonoBehaviour
 
     void Update()
     {
+        if(isDead)
+            return;
+
         if(target != null && !isStunned){
             bool inRange = Vector3.Distance(transform.position, target.transform.position) <= attackDistance;
 
             if(inRange)
                 LookAtTarget();
-            else
+            else if(!anim.GetBool("Attack"))
                 UpdatePath();
 
             if(anim.GetBool("Die")){
@@ -42,11 +46,15 @@ public class EnemyBrain_Stupid : MonoBehaviour
                 anim.SetInteger("Random", random);
                 anim.SetBool("Attack", inRange);
             }
+        }else{
+            anim.SetFloat("Speed", 0);
         }
     }
     void UpdatePath(){
-        if(navMeshAgent.enabled == true)
+        if(navMeshAgent.enabled == true){
             navMeshAgent.SetDestination(target.transform.position);
+            anim.SetFloat("Speed", 1);
+        }   
     }
     void LookAtTarget(){
         Vector3 lookPos = target.transform.position - transform.position;
@@ -56,7 +64,9 @@ public class EnemyBrain_Stupid : MonoBehaviour
     } 
     internal void Die(){
         anim.SetBool("Die", true);
+        GetComponent<Collider>().enabled = false;
         target = null;
+        isDead = true;
     }
     public void HitPlayer(){
         hitPoint.SetActive(true);
@@ -65,11 +75,16 @@ public class EnemyBrain_Stupid : MonoBehaviour
         hitPoint.SetActive(false);
     }
     public void Stun(){
+        if(isDead)
+            return;
+
         isStunned = true;
         anim.SetTrigger("Hit");
-        
     }
     public void UnStun(){
+        if(isDead)
+            return;
+
         isStunned = false;
         anim.ResetTrigger("Hit");
     }

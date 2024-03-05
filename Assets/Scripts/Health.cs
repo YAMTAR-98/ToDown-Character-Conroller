@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
             StartCoroutine(Hit()); 
             health -= damage;
             if(health <= 0)
-                Debug.Log("dead");
+                enemyBrain.Die();
 
                 //Destroy(gameObject);
         }else{
