@@ -21,6 +21,8 @@ public class CharacterController : MonoBehaviour
     [SerializeField] internal float movementSpeed;
     [SerializeField] internal float dashSpeed;
     [SerializeField] internal float jumpForce;
+    [SerializeField] internal float smoothRotation = 0.05f;
+    float _currentVelocity;
     
 
     private void Start() {
@@ -50,21 +52,33 @@ public class CharacterController : MonoBehaviour
     }
 
     void PlayerMovement(){
-        //if(stun)
-            //return;
+        if(stun)
+            return;
 
         Vector2 direction = movementAction.ReadValue<Vector2>();
+       
         
         move = new Vector3(direction.x, 0, direction.y);
         float animSpeed = move.magnitude;
+        
+        
         characterController.Move(move * movementSpeed * Time.deltaTime);
-        move.y = 0;
-        if(move.magnitude >= 0)
-            transform.rotation = Quaternion.LookRotation(move);
-        else
+        anim.SetFloat("Speed", animSpeed);
+        
+        if(direction.sqrMagnitude == 0)
+            return;
+
+        var targetAngle = Mathf.Atan2(move.x, move.z) * Mathf.Rad2Deg;
+        var angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _currentVelocity, smoothRotation);
+        transform.rotation = Quaternion.Euler(0, angle, 0);
+        //move.y = 0;
+        //transform.rotation = Quaternion.LookRotation(move);
+        //if(move.magnitude >= 0)
+            
+        //else
             Debug.Log(animSpeed);
 
-        anim.SetFloat("Speed", animSpeed);
+        
         if(animSpeed <= 0.1f){
             //TODO: Mouse LookAt 
         }

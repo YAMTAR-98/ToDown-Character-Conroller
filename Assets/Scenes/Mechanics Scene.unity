@@ -3967,13 +3967,14 @@ GameObject:
   - component: {fileID: 440208228}
   - component: {fileID: 440208222}
   - component: {fileID: 440208229}
+  - component: {fileID: 440208230}
   m_Layer: 0
   m_Name: Cube_5
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &440208222
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4139,6 +4140,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &440208230
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440208220}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &482475693
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,13 +4177,14 @@ GameObject:
   - component: {fileID: 482475701}
   - component: {fileID: 482475695}
   - component: {fileID: 482475702}
+  - component: {fileID: 482475703}
   m_Layer: 0
   m_Name: Cube_7
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &482475695
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4327,6 +4350,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &482475703
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482475693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &489749202
 GameObject:
   m_ObjectHideFlags: 0
@@ -5269,7 +5313,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -10711,7 +10755,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -10880,13 +10924,14 @@ GameObject:
   - component: {fileID: 718303037}
   - component: {fileID: 718303031}
   - component: {fileID: 718303038}
+  - component: {fileID: 718303039}
   m_Layer: 0
   m_Name: Cube_1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &718303031
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11052,6 +11097,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &718303039
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718303029}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &731170567
 GameObject:
   m_ObjectHideFlags: 0
@@ -11943,7 +12009,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -12255,7 +12321,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -12804,7 +12870,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -12920,7 +12986,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -15184,7 +15250,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -15437,7 +15503,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -15910,7 +15976,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -16163,13 +16229,14 @@ GameObject:
   - component: {fileID: 1264937756}
   - component: {fileID: 1264937750}
   - component: {fileID: 1264937757}
+  - component: {fileID: 1264937758}
   m_Layer: 0
   m_Name: Cube_3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1264937750
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16335,6 +16402,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1264937758
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264937748}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1266949385
 GameObject:
   m_ObjectHideFlags: 0
@@ -23102,13 +23190,14 @@ GameObject:
   - component: {fileID: 1480774191}
   - component: {fileID: 1480774185}
   - component: {fileID: 1480774192}
+  - component: {fileID: 1480774193}
   m_Layer: 0
   m_Name: Cube_4
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1480774185
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23274,6 +23363,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1480774193
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480774183}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1489365146
 GameObject:
   m_ObjectHideFlags: 0
@@ -23290,13 +23400,14 @@ GameObject:
   - component: {fileID: 1489365154}
   - component: {fileID: 1489365148}
   - component: {fileID: 1489365155}
+  - component: {fileID: 1489365156}
   m_Layer: 0
   m_Name: Cube_2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1489365148
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23462,6 +23573,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1489365156
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489365146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1495024456
 GameObject:
   m_ObjectHideFlags: 0
@@ -24029,13 +24161,14 @@ GameObject:
   - component: {fileID: 1555689811}
   - component: {fileID: 1555689805}
   - component: {fileID: 1555689812}
+  - component: {fileID: 1555689813}
   m_Layer: 0
   m_Name: Cube_6
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1555689805
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24201,6 +24334,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1555689813
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555689803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1556682866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24217,7 +24371,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -29358,13 +29512,14 @@ GameObject:
   - component: {fileID: 1598271443}
   - component: {fileID: 1598271437}
   - component: {fileID: 1598271444}
+  - component: {fileID: 1598271445}
   m_Layer: 0
   m_Name: Cube_8
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1598271437
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29530,6 +29685,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1598271445
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598271435}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1615270526
 GameObject:
   m_ObjectHideFlags: 0
@@ -29599,7 +29775,7 @@ PrefabInstance:
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1438024273820377783, guid: 6c7eb4b214deb314494b867cd1b5a394,
         type: 3}
@@ -31796,13 +31972,14 @@ GameObject:
   - component: {fileID: 1895924934}
   - component: {fileID: 1895924933}
   - component: {fileID: 1895924935}
+  - component: {fileID: 1895924936}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1895924928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31968,6 +32145,27 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1895924936
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895924927}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1897890605
 GameObject:
   m_ObjectHideFlags: 0
@@ -33895,7 +34093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Joystick: {fileID: 694171274}
-  isMobile: 1
+  isMobile: 0
 --- !u!4 &2076951533
 Transform:
   m_ObjectHideFlags: 0
@@ -66374,6 +66572,7 @@ MonoBehaviour:
   movementSpeed: 5
   dashSpeed: 0
   jumpForce: 0
+  smoothRotation: 0
 --- !u!1 &5717832573687971783
 GameObject:
   m_ObjectHideFlags: 0
@@ -71951,6 +72150,7 @@ MonoBehaviour:
   movementSpeed: 5
   dashSpeed: 0
   jumpForce: 10
+  smoothRotation: 0.05
 --- !u!54 &6476429280199065205
 Rigidbody:
   m_ObjectHideFlags: 0
