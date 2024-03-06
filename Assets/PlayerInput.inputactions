@@ -83,8 +83,30 @@
                 },
                 {
                     "name": "",
+                    "id": "60fb18ba-98c5-4645-948c-8f8121d5a5b7",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "75daa704-9815-425f-8f6c-4d680d9f49ae",
                     "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Defanse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "213829a0-1d8a-4835-8cdc-0d4a869c0272",
+                    "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -149,8 +171,30 @@
                 },
                 {
                     "name": "",
+                    "id": "98720c0c-b98a-443c-b7ed-c3ed6299ccb2",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "06fc2226-ca0d-40ba-a91d-d38dcecfbec2",
                     "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpellAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "185f8d73-64b1-4d66-bba1-1ccadc4de85b",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -171,6 +215,17 @@
                 },
                 {
                     "name": "",
+                    "id": "003b4a38-9cf4-490c-b581-dc014c1372cb",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CombatMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "860b2799-3518-407f-a3ed-d81482a572fa",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
@@ -182,8 +237,30 @@
                 },
                 {
                     "name": "",
+                    "id": "fb2361ba-81c1-4752-aa33-590e2b70015e",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ad5f490d-b464-4250-a352-c82f9ed13481",
                     "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9cca5570-157b-4d5a-bbeb-87c7856b1705",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
